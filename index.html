@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>HTW Berlin – Login Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <div class="card-content">
+        <img src="img/htw_logo.jpeg" alt="HTW Berlin Logo" class="logo" width="120">
+
+        <h2>Studierendenportal</h2>
+        <p>Login (nur zu Lehrzwecken)</p>
+
+        <input id="username" type="text" placeholder="Benutzername"><br><br>
+        <input id="password" type="password" placeholder="Passwort">
+    </div>
+
+    <div class="card-buttons">
+        <button id="loginBtn" class="button button-orange">
+            Anmelden
+        </button>
+    </div>
+
+    <p id="result"></p>
+</div>
+
+<div class="congratulations" id="successMessage" style="display:none;">
+    Login erfolgreich!
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
